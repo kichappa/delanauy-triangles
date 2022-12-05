@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "delanauy_triangles"
+version = "0.1.0"
+description = ""
+authors = ["Kishore S. Shenoy <kichappa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "delanauy_triangles"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.1.3"
+gunicorn = "^20.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
